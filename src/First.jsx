@@ -1,10 +1,3 @@
-import "./first.css";
-const First = () => {
-  return (
-    <div>
-        <p>This is a paragraph.</p>
-    </div>
-  )
-}
-
-export default First;
+let name="mittal";
+let age=23;
+export  {name,age};
