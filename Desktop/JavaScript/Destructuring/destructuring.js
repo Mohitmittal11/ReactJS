@@ -44,4 +44,5 @@ class Child extends Parent{
 }
 const newobj=new Child(5,3);
 console.log(newobj);
+console.log(newobj.methods2());
 // Object Destructuring 
