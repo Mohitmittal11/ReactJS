@@ -1,4 +1,8 @@
 import React from 'react'
+import Func from './First';
+import Props2 from './Parent';
+import State from './State';
+
 const Cars = ()=> {
     return (
         "this is another p"
@@ -11,6 +15,9 @@ const Functioncomponent = () => {
      "this is a para."
     <Cars/>
     <NewComponent/>
+    <Func/>
+    <Props2/>
+    <State/>
     </>
   );
 }
@@ -19,5 +26,6 @@ const NewComponent =() => {
     <h1>This is a heading..</h1>
   )
 }
+
 
 export default Functioncomponent;
