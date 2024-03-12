@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import First from './First';
-
-
+import Second from './Second';
+import Functioncomponent from './Functioncomponent';
+import Props from './Props';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
 <App/>
-<First/>
+<Second/>
+<Props/>
 </>
 );
+const roots=ReactDOM.createRoot(document.getElementById('demo'));
+roots.render(
+    <Functioncomponent/>
+)
