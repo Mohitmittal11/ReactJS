@@ -6,6 +6,19 @@
     <title>Game</title>
     <link rel="stylesheet" href="./gamesite.css">
 </head>
+<script>
+    const myFunction = ()=> {
+        var values=document.getElementById("navdata");
+        if(values.style.display=== "block")
+        {
+            values.style.display="none";
+        }
+        else
+        {
+            values.style.display="block";
+        }
+    }
+</script>
 <body>
     <div class="main">
     <div class="header">
@@ -13,13 +26,14 @@
             <img src="./logo-2150297_640.webp" alt="logo">
             <a href="#">LUGX</a>
         </div>
-        <div class="right-header">
+        <div class="right-header" id="navdata">
         <a class="home" href="#">Home</a>
         <a href="#">Our Shop</a>
         <a href="#">Product Details</a>
         <a href="#">Contact Us</a>
         <a class="signin" href="#">Sign IN</a>
     </div>
+        <button onclick="myFunction()"> Show</button>
     </div>
     <div class="welcome">
         <div class="leftcontent">
@@ -43,7 +57,7 @@
     </div>
 </div>
 <div class="cards">
-    <div class="freestorage">
+    <!-- <div class="freestorage">
         <p>Free Storage</p>
     </div>
     <div class="usermore">
@@ -54,8 +68,9 @@
     </div>
     <div class="easylayout">
         <p>Easy Layout</p>
-    </div>
-</div>
+     </div>
+</div> -->
+<!--
 <div class="trending">
     <p>Trending</p>
     <div class="trending-games">
@@ -116,19 +131,19 @@
             <img src="./movies1.jpeg">
             <p>Adventure</p>
             <h3>Assasin Creed</h3>
-            <h4>Explore</p>
+            <h4>Explore</h4>
         </div>
         <div class="newimg2">
             <img src="./movies2.jpeg">
             <p>Adventure</p>
             <h3>Assasin Creed</h3>
-            <h4>Explore</p>
+            <h4>Explore</h4>
         </div>
         <div class="newimg3">
             <img src="./movies3.jpeg">
             <p>Adventure</p>
             <h3>Assasin Creed</h3>
-            <h4>Explore</p>
+            <h4>Explore</h4>
         </div>
         <div class="newimg4">
             <img src="./movies4.jpeg">
@@ -146,7 +161,7 @@
             <img src="./movies6.jpeg">
             <p>Adventure</p>
             <h3>Assasin Creed</h3>
-            <h4>Explore</p>
+            <h4>Explore</h4>
         </div>
     </div>
 </div>
@@ -157,22 +172,44 @@
 <div class="superhero">
     <div class="superhero-img1">
         <img src="./superhero1.jpeg">
+        <p>Action</p>
     </div>
     <div class="superhero-img2">
         <img src="./superhero2.jpeg">
+        <p>Action</p>
     </div>
     <div class="superhero-img3">
         <img src="./superhero3.jpeg">
+        <p>Action</p>
     </div>
     <div class="superhero-img4">
         <img src="./superhero4.jpeg">
+        <p>Action</p>
     </div>
     <div class="superhero-img5">
         <img src="./superhero5.jpeg">
+        <p>Action</p>
     </div>
-        
-
 </div>
-    
+<div class="shoping-cards">
+    <div class="shoping-card1">
+        <p class="shop">Our Shop</p>
+        <h3>Go Pre-Order Buy & Get Best Prices For You! </h3>
+        <p class="data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod hic veritatis nobis impedit consequatur placeat doloremque excepturi quo odit?</p>
+        <p class="btn">Shop Now</p>
+    </div>
+    <div class="shoping-card2">
+        <img src="./gameimage.jpeg">
+    </div>
+    <div class="shoping-card3">
+        <p class="news">NEWSLETTER</p>
+        <h3> Get Up To $100 Off Just Buy Subscribe Newsletter </h3>
+        <input type="text" placeholder="Your email">
+        <p class="newbtn">Subscribe Now</p>
+    </div>
+</div>
+    <div class="footer">
+        <p>Copyright @ 2024</p>
+    </div> -->
 </body>
 </html>

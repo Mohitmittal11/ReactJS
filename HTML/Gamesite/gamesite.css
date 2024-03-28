@@ -10,6 +10,7 @@
     border-bottom-left-radius: 80px ;
     border-bottom-right-radius: 80px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -23,9 +24,15 @@
     padding: 10px 10px;
     font-weight: 500;
 }
+.main button {
+  display: none;
+}
 .left-header {
     display: flex;
     justify-content: space-between;
+}
+.right-header {
+  display: block;
 }
 .left-header a {
     font-size: 20px;
@@ -67,11 +74,12 @@
     width: 50%;
     font-size: 14px;
     font-weight: 500;
+    text-align: justify;
 }
 .inputfield input {
+  width: 250px;
+  height: 30px;
     position: relative;
-    width: 250px;
-    height: 30px;
     border-radius: 15px;
     border: none;
 }
@@ -444,6 +452,7 @@
 
     }
     .outer {
+        width: fit-content;
         height: 700px;
         background-color: whitesmoke;
         border-radius: 70px;
@@ -455,7 +464,7 @@
     .category p {
         font-size: 16px;
         font-weight: 600;
-        color:  rgb(245, 89, 115);;
+        color:  rgb(245, 89, 115);
     }
     .category h2 {
         margin-top: 10px;
@@ -464,17 +473,242 @@
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         gap: 10px;
-       margin: 80px 45px;
+       padding: 80px 50px;
     }
     .superhero-img1 {
         display: flex;
         align-items: end;
         height: 250px;
         width: fit-content;
-        background-color: green;
-        
+        background-color: blue;  
+        border-radius: 30px;
+        position: relative;
     }
-    .superhero-img1 img {
+    .superhero-img1 p {
+      position: absolute;
+      top: 15px;
+      left: 72px;
+      bottom: 15px;
+      color: white;
+      font-size: 16px
+    }
+    .superhero-img2 {
+      display: flex;
+      align-items: end;
+      height: 250px;
+      width: fit-content;
+      background-color: blue;  
+      border-radius: 30px;
+      position: relative;
+  }
+  .superhero-img2 p {
+    position: absolute;
+    top: 15px;
+    left: 72px;
+    bottom: 15px;
+    color: white;
+    font-size: 16px
+  }
+  .superhero-img3 {
+    display: flex;
+    align-items: end;
+    height: 250px;
+    width: fit-content;
+    background-color: blue;  
+    border-radius: 30px;
+    position: relative;
+}
+.superhero-img3 p {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  bottom: 15px;
+  color: white;
+  font-size: 16px
+}
+.superhero-img4 {
+  display: flex;
+  align-items: end;
+  height: 250px;
+  width: fit-content;
+  background-color: blue;  
+  border-radius: 30px;
+  position: relative;
+}
+.superhero-img4 p {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  bottom: 15px;
+  color: white;
+  font-size: 16px
+}
+.superhero-img5 {
+  display: flex;
+  align-items: end;
+  height: 250px;
+  width: fit-content;
+  background-color: blue;  
+  border-radius: 30px;
+  position: relative;
+}
+.superhero-img5 p {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  bottom: 15px;
+  color: white;
+  font-size: 16px
+}
+    .superhero img {
+      border-radius: 30px;
         height: 201px;
         width: 186px;
+    }
+    .shoping-cards {
+      /* margin: 100px 65px; */
+      padding: 80px 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .shoping-card1 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 220px;
+      width: 279px; 
+      background-color: whitesmoke;
+      padding: 20px 30px;
+      border-radius: 20px;
+    }
+     .shop {
+      color: rgb(245, 89, 115);
+      font-weight: 600;
+    }
+    .shoping-card1 h3 {
+      margin: 10px 0px;
+    }
+    .btn {
+      width: fit-content;
+      padding: 8px 5px;
+      color: white;
+      border-radius:10px;
+      background-color: rgb(245, 89, 115);
+      font-size: 14px;
+    }
+    .data {
+      margin: 15px 0px;
+    }
+    .shoping-card2 img {
+      height: 260px;
+      width: 339px;
+      border-radius: 20px;
+    }
+    .shoping-card3 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 220px;
+      width: 279px;
+      padding: 20px 30px;
+      border-radius: 20px;
+      background-color: whitesmoke;
+    }
+    .shoping-card3 input{
+      width: 60%;
+      height: 20px;
+      border-radius: 10px;
+
+    }
+    /* .shoping-card3 input:focus {
+      outline: none;
+    } */
+    .shoping-card3 input::placeholder {
+      padding: 0px 5px;
+    }
+    .news {
+      color: rgb(245, 89, 115);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .newbtn {
+     
+      font-size: 14px;
+      width: fit-content;
+      color: white;
+      padding: 5px 5px;
+      background-color: rgb(245, 89, 115);
+      border-radius: 10px;
+    }
+    .footer {
+      position: relative;
+      width: 100%;
+      height: 100px;
+      background-color: blue;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+    }
+    .footer p{
+      position: absolute;
+      left: 45%;
+      color: white;
+      top: 20%;
+    }
+    @media screen and (max-width:768px) {
+      .right-header {
+        display: none;
+      }
+      .main {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .main button {
+        display: block;
+        padding: 0px 10px;
+        background-color: rgb(245, 89, 115);
+        color: white;
+      }
+      .right-header {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 70%;
+        background-color: rgb(245, 89, 115);
+        
+      }
+      .right-header a {
+        display: block;
+        background: transparent;
+        padding: 20px 5px;
+      }
+      /* .rightcontent img {
+        width: 100%;
+        height: 100%;
+      } */
+      /* .inputfield {
+        width: 0%;
+        height: 20px;
+      } */
+    }
+    @media screen and (max-width:640px) {
+      .welcome {
+        flex-wrap: wrap;
+      }
+      .leftcontent .description {
+        width: 100%;
+      }
+      .leftcontent input {
+        width: 100%;
+      }
+
+.rightcontent img {
+  margin: 20px 0px;
+  width: 100%;
+  height: 80vh;
+}
     }
